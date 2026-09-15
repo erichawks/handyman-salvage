@@ -24,9 +24,9 @@
     .logo-mark img{display:block;height:88px;width:88px;object-fit:contain;object-position:center;background:transparent}
     .brand-name{display:flex;flex-direction:column;align-items:center;text-align:center;min-width:0}
     .brand-name .word-signal{font-family:Oswald,sans-serif;font-weight:700;font-size:1.55rem;line-height:1.05;letter-spacing:.06em;color:var(--navy);text-transform:uppercase}
-    .brand-name .word-meta,.header-license{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap}
-    .brand-name .word-meta{margin-top:6px}
+    .brand-name .word-meta{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap;margin-top:6px}
     .brand-name .word-meta::before,.brand-name .word-meta::after{content:"";width:18px;height:2px;background:var(--navy);border-radius:2px}
+    .brand-name .word-est{margin-top:4px;color:var(--muted);font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:10px 16px;font-weight:600;font-size:.92rem;border:1px solid transparent;transition:.18s ease}
     .btn-gold{background:var(--navy);color:#fff}
     .btn-gold:hover{background:#2a2a2a}
@@ -61,7 +61,7 @@
     .cta-band .section-sub{color:#d7d7d7}
     footer{border-top:1px solid var(--line);margin-top:36px;padding:28px 0 40px;color:var(--muted);font-size:.9rem}
     .foot{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap}
-    .fb-link{display:inline-flex;align-items:center;gap:8px;margin-top:8px;color:var(--navy);font-weight:600}
+    .fb-link{display:inline-flex;align-items:center;gap:8px;color:var(--navy);font-weight:600;flex:0 0 auto;white-space:nowrap}
     .fb-link svg{width:18px;height:18px;fill:#1877F2;flex:0 0 auto}
     .fb-link:hover{color:#1877F2}
     @media(max-width:860px){
@@ -70,7 +70,7 @@
       h1{font-size:2.3rem}
       .logo-mark img{height:64px;width:64px}
       .brand-name .word-signal{font-size:1.1rem}
-      .header-license{font-size:.62rem}
+      .fb-link{font-size:.82rem}
     }
   </style>
 </head>
@@ -82,9 +82,13 @@
         <div class="brand-name">
           <span class="word-signal">Handyman Salvage</span>
           <span class="word-meta">Trenton, GA</span>
+          <span class="word-est">Established 1988</span>
         </div>
       </a>
-      <div class="header-license">Est. 1988 · Hwy 11</div>
+      <a class="fb-link" href="https://www.facebook.com/handymansalvagehwy11" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.265h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+        Join us on Facebook
+      </a>
     </div>
   </header>
   <main id="top">
@@ -146,11 +150,7 @@
   <footer>
     <div class="wrap foot">
       <div>
-        Handyman Salvage · Trenton, GA<br />
-        <a class="fb-link" href="https://www.facebook.com/handymansalvagehwy11" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.265h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
-          Join us on Facebook
-        </a>
+        Handyman Salvage · Trenton, GA
       </div>
       <div>
         14150 Hwy 11, Trenton, GA 30752<br />
