@@ -18,8 +18,8 @@ GitHub owner/repo: erichawks/handyman-salvage
 Vercel project name: handyman-salvage
 Live URL: https://handyman-salvage-eric-f564.vercel.app
 Custom domain:
-Out of scope repos (never touch): erichawks/signal-electric-llc ; erichawks/masteryourknitting ; erichawks/fixedyourwebsite ; erichawks/website-leads ; erichawks/handicraft-of-chattanooga
-Rejected ideas (do not bring back):
+Out of scope repos (never touch): erichawks/signal-electric-llc ; erichawks/masteryourknitting ; erichawks/fixedyourwebsite ; erichawks/website-leads ; erichawks/handicraft-of-chattanooga ; erichawks/nashville-handyman-redesign
+Rejected ideas (do not bring back): "In the yard" section heading; "What the store sells, in their words: new building supplies, furniture, hardware, closeouts, and liquidations. Stock moves fast."
 ```
 
 Hours from the business’s own Facebook posts: Mon/Tue/Thu/Fri 8:30 a.m.–6:00 p.m.; Wed 8:30 a.m.–5:00 p.m.; Sat 9:00 a.m.–4:00 p.m.; Sun closed. All times Eastern.
@@ -31,5 +31,5 @@ Primary phone on the site: (706) 657-3438. Email: wisebuyz1@gmail.com.
 (706) 657-3437 was removed from the page at the client’s request.
 Missing: license, approved customer quotes.
 This is a retail / salvage building-supply yard, not a traveling handyman contractor.
-Colors used on this instance: background `#f7f3ea`, ink `#111111`. Fonts: Oswald + Inter.
+Colors used on this instance: background `#eef0f2`, ink `#1c2127`. Fonts: Oswald + Inter.
 Note: production alias may show Vercel Deployment Protection / SSO until that is turned off in the Vercel project.
