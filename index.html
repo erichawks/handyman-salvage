@@ -60,7 +60,7 @@
     .cta-band .section-title{color:#fff}
     .cta-band .section-sub{color:#c5d0d8}
     footer{border-top:1px solid var(--line);margin-top:36px;padding:28px 0 40px;color:var(--muted);font-size:.9rem}
-    .foot{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap}
+    .foot{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:2px}
     .fb-link{display:inline-flex;align-items:center;gap:8px;color:var(--navy);font-weight:600;flex:0 0 auto;white-space:nowrap}
     .fb-link svg{width:18px;height:18px;fill:#1877F2;flex:0 0 auto}
     .fb-link:hover{color:#1877F2}
@@ -149,13 +149,9 @@
   </main>
   <footer>
     <div class="wrap foot">
-      <div>
-        Handyman Salvage · Trenton, GA
-      </div>
-      <div>
-        14150 Hwy 11, Trenton, GA 30752<br />
-        &copy; <span id="y"></span> Handyman Salvage. All rights reserved.
-      </div>
+      <div>Handyman Salvage · Trenton, GA</div>
+      <div>14150 Hwy 11, Trenton, GA 30752</div>
+      <div>&copy; <span id="y"></span> Handyman Salvage. All rights reserved.</div>
     </div>
   </footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
