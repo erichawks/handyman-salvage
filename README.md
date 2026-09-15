@@ -1,12 +1,5 @@
 # Handyman Salvage
 
-One-page business-card website for Handyman Salvage (Trenton, GA).
+One-page static site for Handyman Salvage, Trenton, GA.
 
-- Template / Grok project rules: [PROJECT_INSTRUCTIONS.md](./PROJECT_INSTRUCTIONS.md)
-- Filled values for this client: [INSTANCE.md](./INSTANCE.md)
-
-This repository is separate from other client sites and must stay that way.
-
-## Live
-
-https://handyman-salvage-eric-f564.vercel.app
+Live: https://handyman-salvage-eric-f564.vercel.app
