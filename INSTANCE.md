@@ -7,11 +7,11 @@ Business name: Handyman Salvage
 Legal name (if different):
 City / state / ZIP: Trenton, GA 30752
 Service area: Trenton, GA; about 15 minutes from downtown Chattanooga, TN
-Owner / contacts (name + phone or email): Josh or Katlyn — (706) 657-3437 ; (706) 657-3438
+Owner / contacts (name + phone or email): Josh or Katlyn — (706) 657-3438 ; wisebuyz1@gmail.com
 License / insurance / certifications:
-Primary email:
+Primary email: wisebuyz1@gmail.com
 Facebook / other social URLs: https://www.facebook.com/handymansalvagehwy11
-Logo URL or file: logo.jpg (source: client-supplied handyman-salvage-logo.jpg)
+Logo URL or file: logo.svg (source: client-supplied handyman-salvage-logo.jpg)
 Existing site or brand references: https://www.facebook.com/handymansalvagehwy11
 Headline: Building supplies on Highway 11.
 GitHub owner/repo: erichawks/handyman-salvage
@@ -26,8 +26,10 @@ Hours from the business’s own Facebook posts: Mon/Tue/Thu/Fri 8:30 a.m.–6:00
 Address from public listings and the business’s own posts: 14150 Hwy 11 (US-11), Trenton, GA 30752.
 Official Facebook about text used for offerings: family-owned store in Trenton selling new building supplies, furniture, hardware, closeouts and liquidations.
 Est. 1988 is on the client-supplied logo.
-Contacts Josh and Katlyn and both phone numbers appear on the business’s own posts.
-Missing: email, license, which phone is primary, approved customer quotes.
+Contacts Josh and Katlyn appear on the business’s own posts.
+Primary phone on the site: (706) 657-3438. Email: wisebuyz1@gmail.com.
+(706) 657-3437 was removed from the page at the client’s request.
+Missing: license, approved customer quotes.
 This is a retail / salvage building-supply yard, not a traveling handyman contractor.
 Colors used on this instance: background `#f7f3ea`, ink `#111111`. Fonts: Oswald + Inter.
 Note: production alias may show Vercel Deployment Protection / SSO until that is turned off in the Vercel project.
