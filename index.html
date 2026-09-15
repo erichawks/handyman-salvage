@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Handyman Salvage | Building Supplies in Trenton, GA</title>
   <meta name="description" content="Handyman Salvage is a family-owned building-supply store on Hwy 11 in Trenton, GA — about 15 minutes from downtown Chattanooga. Call Josh or Katlyn at (706) 657-3438 or email wisebuyz1@gmail.com." />
-  <meta name="theme-color" content="#eef0f2" />
+  <meta name="theme-color" content="#dfe6e3" />
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#eef0f2;--wash:#e3e7eb;--surface:#fff;--ink:#1c2127;--navy:#2f3d4a;--slate:#4a5c6b;--muted:#5d6b76;--line:rgba(47,61,74,.16)}
+    :root{--bg:#dfe6e3;--wash:#c5d2ce;--surface:#fff;--ink:#172221;--navy:#1e3638;--slate:#355153;--muted:#4a6162;--line:rgba(30,54,56,.18)}
     *{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth}
     body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;min-height:100vh}
     a{color:inherit;text-decoration:none}
     .wrap{width:min(1120px,calc(100% - 32px));margin:0 auto}
-    header{position:sticky;top:0;z-index:20;background:rgba(238,240,242,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    header{position:sticky;top:0;z-index:20;background:rgba(223,230,227,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
     .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:10px 0}
     .brand{display:flex;align-items:center;gap:14px;min-width:0}
     .logo-mark{line-height:0;flex:0 0 auto}
@@ -28,9 +28,9 @@
     .brand-name .word-meta::before,.brand-name .word-meta::after{content:"";width:18px;height:2px;background:var(--slate);border-radius:2px}
     .brand-name .word-est{margin-top:4px;color:var(--muted);font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:10px 16px;font-weight:600;font-size:.92rem;border:1px solid transparent;transition:.18s ease}
-    .btn-gold{background:#f4f6f8;color:var(--navy)}
+    .btn-gold{background:#e6eeeb;color:var(--navy)}
     .btn-gold:hover{background:#fff}
-    .btn-ghost{background:transparent;color:#e8eef2;border-color:rgba(232,238,242,.45)}
+    .btn-ghost{background:transparent;color:#e6eeeb;border-color:rgba(230,238,235,.45)}
     .btn-ghost:hover{border-color:#fff;color:#fff}
     .hero{padding:48px 0 40px}
     .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}
@@ -40,7 +40,7 @@
     h1 .h1-line+.h1-line{margin-top:.18em}
     .lede{color:var(--muted);font-size:1.05rem;max-width:54ch}
     .hero-ctas{display:flex;gap:10px;flex-wrap:wrap}
-    .card-panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 12px 30px rgba(47,61,74,.08)}
+    .card-panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 12px 30px rgba(30,54,56,.10)}
     .card-panel h2{font-family:Oswald,sans-serif;font-size:1.3rem;letter-spacing:.04em;margin-bottom:8px;color:var(--navy)}
     .phone-list{display:grid;gap:10px;margin:16px 0 0}
     .phone{display:flex;justify-content:space-between;align-items:center;background:var(--wash);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
@@ -53,12 +53,16 @@
     .service{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;min-height:148px}
     .service h3{font-size:1.02rem;margin:10px 0 6px;color:var(--navy)}
     .service p{color:var(--muted);font-size:.92rem}
-    .icon{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:#d7dee4;color:var(--navy);font-size:1.1rem}
-    .split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+    .icon{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:#b7c8c4;color:var(--navy);font-size:1.1rem}
+    .hours-panel{margin-top:18px}
+    .hours-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin-top:16px}
+    .hours-day{background:var(--wash);border:1px solid var(--line);border-radius:12px;padding:14px 12px}
+    .hours-day dt{font-weight:700;color:var(--navy);font-size:.86rem;margin-bottom:6px}
+    .hours-day dd{color:var(--muted);font-size:.86rem;line-height:1.35}
     .cta-band{margin:36px 0 8px;background:var(--navy);color:#fff;border-radius:20px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:18px}
-    .cta-band .eyebrow{color:#c5d0d8}
+    .cta-band .eyebrow{color:#c5d6d3}
     .cta-band .section-title{color:#fff}
-    .cta-band .section-sub{color:#c5d0d8}
+    .cta-band .section-sub{color:#c5d6d3}
     footer{border-top:1px solid var(--line);margin-top:36px;padding:28px 0 40px;color:var(--muted);font-size:.9rem}
     .foot{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap;text-align:left}
     .foot-left{display:flex;flex-direction:column;gap:2px}
@@ -67,7 +71,8 @@
     .fb-link svg{width:18px;height:18px;fill:#1877F2;flex:0 0 auto}
     .fb-link:hover{color:#1877F2}
     @media(max-width:860px){
-      .hero-grid,.services,.split,.cta-band{grid-template-columns:1fr}
+      .hero-grid,.services,.cta-band{grid-template-columns:1fr}
+      .hours-grid{grid-template-columns:1fr 1fr}
       .cta-band{flex-direction:column;align-items:flex-start}
       h1{font-size:2.3rem}
       .logo-mark img{height:64px;width:64px}
@@ -119,18 +124,19 @@
         <article class="service"><div class="icon">▣</div><h3>Closeouts & liquidations</h3><p>New goods at salvage prices. Inventory changes daily — call for what is on the floor.</p></article>
       </div>
     </section>
-    <section class="wrap" id="about">
-      <div class="split">
-        <div class="card-panel">
-          <p class="eyebrow">Who we are</p>
-          <h2 class="section-title" style="font-size:1.45rem">A store, not a contractor</h2>
-          <p class="section-sub" style="margin-bottom:0">Handyman Salvage is the family-owned building-supply yard on Hwy 11 in Trenton, Georgia — established 1988. It is not a traveling handyman service. Come to the yard, or call Josh or Katlyn.</p>
-        </div>
-        <div class="card-panel">
-          <p class="eyebrow">Hours & area</p>
-          <h2 class="section-title" style="font-size:1.45rem">Open six days</h2>
-          <p class="section-sub" style="margin-bottom:0">Monday, Tuesday, Thursday, Friday 8:30 a.m.–6:00 p.m. Wednesday 8:30 a.m.–5:00 p.m. Saturday 9:00 a.m.–4:00 p.m. Sunday closed. All times Eastern. 14150 Hwy 11, Trenton, GA 30752 — about 15 minutes from downtown Chattanooga.</p>
-        </div>
+    <section class="wrap" id="hours">
+      <div class="card-panel hours-panel">
+        <p class="eyebrow">Hours</p>
+        <h2 class="section-title" style="font-size:1.45rem;margin-bottom:0">Open six days</h2>
+        <dl class="hours-grid">
+          <div class="hours-day"><dt>Monday</dt><dd>8:30 a.m.–6:00 p.m. Eastern</dd></div>
+          <div class="hours-day"><dt>Tuesday</dt><dd>8:30 a.m.–6:00 p.m. Eastern</dd></div>
+          <div class="hours-day"><dt>Wednesday</dt><dd>8:30 a.m.–5:00 p.m. Eastern</dd></div>
+          <div class="hours-day"><dt>Thursday</dt><dd>8:30 a.m.–6:00 p.m. Eastern</dd></div>
+          <div class="hours-day"><dt>Friday</dt><dd>8:30 a.m.–6:00 p.m. Eastern</dd></div>
+          <div class="hours-day"><dt>Saturday</dt><dd>9:00 a.m.–4:00 p.m. Eastern</dd></div>
+          <div class="hours-day"><dt>Sunday</dt><dd>Closed</dd></div>
+        </dl>
       </div>
     </section>
     <div class="wrap">
